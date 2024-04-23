@@ -43,4 +43,112 @@ class HomeController extends Controller
     {
         return view('managerHome');
     }
+    public function superAdminHome(): View
+    {
+        return view('superAdminHome');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function dosenHome(): View
+    {
+        return view('dosen');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function mahasiswa(): View
+    {
+        return view('mahasiswa');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function tendikHome(): View
+    {
+        return view('tendik');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function akademikHome(): View
+    {
+        return view('akademik');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function keuanganHome(): View
+    {
+        return view('keuangan');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function direkturHome(): View
+    {
+        return view('direktur');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function wd1Home(): View
+    {
+        return view('wd1');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function wd2Home(): View
+    {
+        return view('wd2');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function wd3Home(): View
+    {
+        return view('wd3');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function lppm(): View
+    {
+        return view('lppm');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function sdm(): View
+    {
+        return view('sdm');
+    }
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
 }
